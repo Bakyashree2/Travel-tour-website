@@ -75,4 +75,102 @@
         
         
                 }
+
+
+                 .cardDiv{
+                     position: relative;
+                     padding: 2rem 1rem;
+                     background: var(--whitecolor);
+                     border-radius: 10px;
+                     gap: 1rem;
+
+
+                    label{
+                        display: block;
+                        color: var(--textcolor);
+                        padding-bottom: 10px;
+                        font-size: 13px;
+                        font-weight: 500;
+                    }
+
+                    .label_total{
+                        justify-content: space-between;
+                        align-items: center;
+
+
+                        .total{
+                             color: var(--textcolor);
+                             font-size: 18px;
+                             padding-bottom: 10px;
+                        }
+                    }
+
+                 .input{
+                    height: 40px;
+                    padding: 0 1rem;
+                    background: var(--inputcolor);
+                    border-radius: 3rem;
+
+                    input{
+                        background: none;
+                        border: none;
+                        outline: none;
+                        width: 100%;
+                        font-size: 13px;
+                        font-weight: 500;
+                        &::placeholder{
+                            font-size: 13px;
+                        }
+                    }
+
+                    .icon{
+                        font-size: 18px;
+                        color: var(--primarycolor)
+                        !important;
+                        margin-left: 10px;
+                    }
+
+
+                    .input[type=range]{
+                        background: blue;
+                    }
+
+                 }
+        
+                .searchOptions{
+                    position: absolute;
+                    background: var(--gradientcolor);
+                    width: max-container;
+                    bottom: 0.7rem;
+                    column-gap: .8rem;
+                    padding: 5px 1rem;
+                    border-radius: 3rem;
+                    left: 50%;
+                    transform: translate(-50%);
+                    justify-content: center;
+                    cursor: pointer;
+
+                    &::hover{
+                        background: var(--primarycolor);
+                    }
+
+                    .icons{
+                        font-size: 18px;
+                    }
+
+                    span{
+                        font-size: 13px;
+                    }
+
+
+
+                }
+
+
+
+            }
+                 
+
+
+
     }
