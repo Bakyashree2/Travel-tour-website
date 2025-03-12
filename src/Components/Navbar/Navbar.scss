@@ -39,7 +39,7 @@
     }
 
     @media screen and (max-width: 768px){
-        .navbar{
+        .navBar{
             position: absolute;
             background: var(--whitecolorDeam);
             height: max-content;
@@ -53,7 +53,7 @@
             box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
             transition: .5s ease-in-out;
 
-            .navlist{
+            .Navlists{
                 flex-direction: column;
                 justify-content: center;
                 width: 100%;
@@ -61,11 +61,11 @@
                 padding: .5rem 0;
 
             
-                .navItem{
+                .NavITEM{
                     padding: .5rem 0;
                 
 
-                    .navlink{
+                    .Navlink{
                         color: var(--textcolor);
                         font-size: .9rem;
                         font-weight: 600;
@@ -89,8 +89,8 @@
                 position: absolute;
                 top: 1rem;
                 right: 1.5rem;
-                color: ver(--primarycolor);
-                &hover{
+                color: var(--pcloseNavBarrimarycolor);
+                &:hover{
                     color: var(--secondarycolor);
                 }
             }
